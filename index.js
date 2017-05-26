@@ -9,11 +9,12 @@ module.exports = {
     es6: true,
     browser: true,
   },
-  extends: 'prettier',
+  extends: [
+      'prettier'
+  ],
   plugins: [
     'prettier'
   ],
-  // add your custom rules here
   'rules': {
     "prettier/prettier": ["error", {
       "tabWidth": 2,
