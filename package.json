@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "EAHT projects' eslint rules",
   "main": "index.js",
+  "scripts": {
+    "lint:anti-slop": "node tools/oxlint/node_modules/oxlint/bin/oxlint --config .oxlintrc.json ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Seigiard/eslint-config-eaht.git"
